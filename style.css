@@ -1,0 +1,101 @@
+div{
+  margin: 3em;
+  box-sizing: border-box;
+}
+
+
+#fixed{
+  width: 40%;
+  height: 30vh;
+  border: solid black 1px;
+  overflow: auto;
+  background-image: url('./images/img_flower.jpg');
+  background-size: contain;
+  background-position: center;
+
+}
+
+
+#bgm{
+  width: 50%;
+  background-image: url('./images/img_flwr.gif'),url('./images/paper.gif');
+  background-repeat: no-repeat, repeat;
+  background-position: bottom right, top left;
+  background-size: 200px;
+  padding: 60px;
+}
+
+#cover{
+  width: 25%;
+  background-image: url('./images/img_flwr.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  border: solid black 1px;
+}
+
+
+#contain{
+  width: 25%;
+  background-image: url('./images/img_flwr.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 15px;
+  border: solid black 1px;
+}
+
+
+#image-border{
+  width: 40%;
+  border: #000 dotted 25px;
+  padding: 15px;
+  background-image: url('./images/img_flower.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+
+#image-padding{
+  width: 40%;
+  border: #000 dotted 25px;
+  padding: 15px;
+  background-image: url('./images/img_flower.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: padding-box;
+}
+
+#image-content{
+  width: 40%;
+  border: #000 dotted 25px;
+  padding: 15px;
+  background-image: url('./images/img_flower.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+#clip-border{
+  width: 40%;
+  border: #000 dotted 25px;
+  padding: 15px;
+  background-color: yellow;
+  background-clip: border-box;
+}
+
+#clip-padding{
+  width: 40%;
+  border: #000 dotted 25px;
+  padding: 15px;
+  background-color: yellow;
+  background-clip: padding-box;
+}
+
+#clip-content{
+  width: 40%;
+  border: #000 dotted 25px;
+  padding: 15px;
+  background-color: yellow;
+  background-clip: content-box;
+}
